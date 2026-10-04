@@ -1,0 +1,225 @@
+{
+  "projects": [
+    {
+      "id": "sooqy",
+      "name": {
+        "en": "Sooqy",
+        "ar": "سوقي"
+      },
+      "category": {
+        "en": "ANDROID · BUSINESS TOOLS",
+        "ar": "أندرويد · أدوات الأعمال"
+      },
+      "summary": {
+        "en": "A shop’s daily work. In your pocket.",
+        "ar": "إدارة شغل المحل، من هاتفك."
+      },
+      "description": {
+        "en": "An Android accounting and inventory app for small shops and market stalls in Gaza. Track stock, customer balances, expiry dates and transactions from a phone.",
+        "ar": "تطبيق أندرويد للمحاسبة وإدارة المخزون، مخصص للمحلات الصغيرة والبسطات في غزة. يتابع البضاعة وأرصدة الزبائن والصلاحية والحركات المالية من الهاتف."
+      },
+      "stack": [
+        "Java",
+        "Kotlin",
+        "SQLite",
+        "Node.js"
+      ],
+      "github": "https://github.com/ahmadadass/AccountingandManagement",
+      "featured": true,
+      "images": [
+        "/assets/sooqy-inventory.jpg",
+        "/assets/sooqy-income.jpg",
+        "/assets/sooqy-invoice.jpg",
+        "/assets/sooqy-menu.jpg"
+      ],
+      "sections": [
+        {
+          "title": {
+            "en": "The challenge",
+            "ar": "التحدي"
+          },
+          "body": {
+            "en": "Small vendors need to keep track of money and stock, but a laptop is not always practical or available. I built Sooqy around the everyday work of a small shop: what arrived, what sold, who owes money and what expires next.",
+            "ar": "يحتاج أصحاب المحلات والبسطات إلى متابعة المال والبضاعة، لكن استخدام اللابتوب ليس متاحًا أو عمليًا دائمًا. بنيت سوقي حول تفاصيل العمل اليومي: ما وصل، وما بيع، وديون الزبائن، ومواعيد انتهاء الصلاحية."
+          }
+        },
+        {
+          "title": {
+            "en": "What I built",
+            "ar": "ما أنجزته"
+          },
+          "body": {
+            "en": "I developed the Android app in Java and Kotlin, with SQLite for local records and a JavaScript/Node.js API for authentication and cloud synchronization. The app brings inventory, customer balances and transaction history into one place.",
+            "ar": "طورت تطبيق أندرويد باستخدام Java وKotlin، مع SQLite للسجلات المحلية وواجهة API باستخدام JavaScript وNode.js لتسجيل الدخول والمزامنة السحابية. يجمع التطبيق المخزون وأرصدة الزبائن وسجل الحركات في مكان واحد."
+          }
+        },
+        {
+          "title": {
+            "en": "A deliberate decision",
+            "ar": "قرار مقصود"
+          },
+          "body": {
+            "en": "Product and customer records do not rely on photos. I focused on the information a seller needs to record and find quickly. Building the workflows also taught me how much interface design affects the usefulness of an otherwise capable app.",
+            "ar": "لا تعتمد سجلات المنتجات والزبائن على الصور. ركزت على المعلومات التي يحتاج البائع إلى تسجيلها والوصول إليها بسرعة. وتعلمت خلال تطوير سير العمل مقدار تأثير تصميم الواجهة في فائدة التطبيق."
+          }
+        },
+        {
+          "title": {
+            "en": "Where it stands",
+            "ar": "الوضع الحالي"
+          },
+          "body": {
+            "en": "The app is completed and has had limited use beyond my own testing. It has not been published on an app store. My next priority is a clearer interface and a better user experience, followed by more structured feedback from vendors.",
+            "ar": "اكتمل التطبيق وجربه عدد محدود من الأشخاص خارج اختباراتي الشخصية. لم أنشره بعد على متجر التطبيقات. أولويتي التالية واجهة أوضح وتجربة استخدام أفضل، ثم جمع ملاحظات منظمة من أصحاب المحلات."
+          }
+        }
+      ]
+    },
+    {
+      "id": "lan-messenger",
+      "name": {
+        "en": "LAN Messenger",
+        "ar": "LAN Messenger"
+      },
+      "category": {
+        "en": "ANDROID + WINDOWS · NETWORKING",
+        "ar": "أندرويد + ويندوز · الشبكات"
+      },
+      "summary": {
+        "en": "Same network. No internet required.",
+        "ar": "شبكة واحدة، دون الحاجة إلى الإنترنت."
+      },
+      "description": {
+        "en": "Direct messaging and file sharing between Android phones and Windows computers on a local network, without a dedicated server.",
+        "ar": "مراسلة وتبادل ملفات مباشرة بين هواتف أندرويد وأجهزة ويندوز على شبكة محلية، دون خادم مخصص."
+      },
+      "stack": [
+        "Java",
+        "UDP",
+        "TCP",
+        "SQLite"
+      ],
+      "github": "https://github.com/ahmadadass/lan_messager",
+      "featured": true,
+      "images": [
+        "/assets/lan-peers.jpg",
+        "/assets/lan-chat.jpg",
+        "/assets/lan-connect.jpg"
+      ],
+      "sections": [
+        {
+          "title": {
+            "en": "The starting point",
+            "ar": "البداية"
+          },
+          "body": {
+            "en": "During displacement in Gaza in 2025, we had a local network but no internet connection. I wanted a way for people nearby to communicate and share announcements using the connection we already had.",
+            "ar": "خلال النزوح في غزة عام 2025، توفرت شبكة محلية دون اتصال بالإنترنت. أردت وسيلة تتيح للموجودين التواصل ومشاركة الإعلانات عبر الشبكة المتاحة بالفعل."
+          }
+        },
+        {
+          "title": {
+            "en": "The technical decision",
+            "ar": "القرار التقني"
+          },
+          "body": {
+            "en": "I built Java clients for Android and Windows. Devices communicate directly: UDP carries text messages, while TCP transfers files. Switching file transfers from UDP to TCP was a key step in getting that feature working. SQLite stores local data.",
+            "ar": "بنيت نسخًا بلغة Java لأندرويد وويندوز. تتواصل الأجهزة مباشرة: ينقل UDP الرسائل النصية، بينما ينقل TCP الملفات. كان الانتقال من UDP إلى TCP في نقل الملفات خطوة أساسية لإنجاح الميزة. وتخزن SQLite البيانات محليًا."
+          }
+        },
+        {
+          "title": {
+            "en": "What I learned",
+            "ar": "ما تعلمته"
+          },
+          "body": {
+            "en": "This project pushed me to learn network protocols and work through cross-device synchronization. I also experimented with calling over TCP, but did not complete that feature; calls are not part of the finished app.",
+            "ar": "دفعني المشروع إلى تعلم بروتوكولات الشبكات ومعالجة مزامنة البيانات بين الأجهزة. جربت أيضًا تنفيذ المكالمات عبر TCP، لكنني لم أكمل هذه الميزة، وهي ليست جزءًا من التطبيق النهائي."
+          }
+        },
+        {
+          "title": {
+            "en": "What comes next",
+            "ar": "الخطوة التالية"
+          },
+          "body": {
+            "en": "The messaging and file-sharing app is complete. I would improve the interface and make synchronization between devices more robust in the next version.",
+            "ar": "اكتمل تطبيق المراسلة وتبادل الملفات. في النسخة التالية، أطمح إلى تحسين الواجهة وتعزيز موثوقية المزامنة بين الأجهزة."
+          }
+        }
+      ]
+    },
+    {
+      "id": "dashboard",
+      "name": {
+        "en": "Bot Dashboard",
+        "ar": "لوحة إدارة بوت"
+      },
+      "category": {
+        "en": "WEB · PERSONAL PROJECT",
+        "ar": "ويب · مشروع مستقل"
+      },
+      "summary": {
+        "en": "A completed web dashboard built for my brother’s Telegram bot.",
+        "ar": "لوحة تحكم ويب مكتملة طورتها لبوت تلغرام الخاص بأخي."
+      },
+      "description": {
+        "en": "A completed web dashboard built for my brother’s Telegram bot.",
+        "ar": "لوحة تحكم ويب مكتملة طورتها لبوت تلغرام الخاص بأخي."
+      },
+      "stack": [],
+      "github": "https://github.com/ahmadadass/dashboard",
+      "featured": false,
+      "images": [],
+      "sections": []
+    },
+    {
+      "id": "freelancejobhub",
+      "name": {
+        "en": "FreelanceJobHub",
+        "ar": "FreelanceJobHub"
+      },
+      "category": {
+        "en": "WEB · UNIVERSITY PROJECT",
+        "ar": "ويب · مشروع مستقل"
+      },
+      "summary": {
+        "en": "A completed university project, built independently as part of my studies.",
+        "ar": "مشروع جامعي مكتمل نفذته بنفسي ضمن دراستي."
+      },
+      "description": {
+        "en": "A completed university project, built independently as part of my studies.",
+        "ar": "مشروع جامعي مكتمل نفذته بنفسي ضمن دراستي."
+      },
+      "stack": [],
+      "github": "https://github.com/ahmadadass/FreelanceJobHub",
+      "featured": false,
+      "images": [],
+      "sections": []
+    },
+    {
+      "id": "gaza-aid-data",
+      "name": {
+        "en": "Gaza Aid Data",
+        "ar": "Gaza Aid Data"
+      },
+      "category": {
+        "en": "WEB · COMMUNITY PROJECT",
+        "ar": "ويب · مشروع مستقل"
+      },
+      "summary": {
+        "en": "A completed community project built for my uncle’s work with our local community.",
+        "ar": "مشروع مجتمعي مكتمل طورته لمساعدة عمي في عمله مع مجتمعنا المحلي."
+      },
+      "description": {
+        "en": "A completed community project built for my uncle’s work with our local community.",
+        "ar": "مشروع مجتمعي مكتمل طورته لمساعدة عمي في عمله مع مجتمعنا المحلي."
+      },
+      "stack": [],
+      "github": "https://github.com/ahmadadass/Gaza-Aid-Data",
+      "featured": false,
+      "images": [],
+      "sections": []
+    }
+  ]
+}
